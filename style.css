@@ -3,7 +3,7 @@
 
 }
 .wrapper{
-    background:url(/img/look.jpg);
+    background:url(img/look.jpg);
     background-position: center;
     background-size: cover;
     width:100%;
@@ -49,6 +49,20 @@ textarea{
     margin:0 50%;
     transform:translate(-50%);
 }
+.error{
+    border:2px solid crimson;
+
+}
+.succes{
+    border:2px solid limegreen;
+}
 label{
     display:block;
+}
+.submit:hover{
+    background:#3abd3a;
+
+}
+.submit:active{
+    background:lime;
 }

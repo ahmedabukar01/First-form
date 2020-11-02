@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+
+    <div class="wrapper">
+        <form class="myForm">
+            <label>UserName</label>
+            <input type="text" id="username" placeholder="UserName"><br>
+            Password:<br>
+             <input type="password" id="password" placeholder="password"><br>
+            Email: <br>
+            <input type="email" id="email" placeholder="Email"><br>
+            <select>
+                <option>web dev</option>
+                <option>cyber sec</option>
+                <option>App dev</option>
+            </select>
+            
+            <label class="left edit">which level you are ?</lebel>
+            <br>
+            <input class="left" type="radio" name="exp" value="beginner" >beginner<br>
+            <input class="left" type="radio" name="exp" value="good">good<br>
+            <input class="left" type="radio" name="exp" value="advanced" checked>advanced<br>
+            <input class="left" type="radio" name="exp" value="excelent">excelent<br>
+            <br>
+            <p class="edit">do you have vehicle?</p>
+            <input type="checkbox" name="check" value="car">Tayota
+            <input type="checkbox" name="check" value="airplane" checked>helocapter
+            <input type="checkbox" name="check" value="bike">bycycle
+
+            <textarea name="message" cols="30" rows="10">
+
+            </textarea>
+            
+            <input type="submit" class="submit" value="submit">
+        </form>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>

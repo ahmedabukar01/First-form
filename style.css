@@ -1,0 +1,54 @@
+*{
+    box-sizing:border-box;
+
+}
+.wrapper{
+    background:url(/img/look.jpg);
+    background-position: center;
+    background-size: cover;
+    width:100%;
+    height:100vh;
+}
+.myForm{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    font-size:18px;
+    padding:10px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:80%;
+    max-width:400px;
+    color:#fff;
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+    padding:6px 10px;
+}
+.left{
+    padding:5px;
+    padding-top:30px;
+}
+.edit{
+    font-weight: 400;
+}
+textarea{
+    display:block;
+    margin:30px auto;
+}
+.submit{
+    padding:6px 15px;
+    border-radius: 5px;
+    background:limegreen;
+    color:#fff;
+    border:1px solid green;
+    text-align:center;
+    margin:0 50%;
+    transform:translate(-50%);
+}
+label{
+    display:block;
+}
